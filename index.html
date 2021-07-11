@@ -29,9 +29,7 @@
     <!-- 作り方を３つの中からえらぶ  ※詳細設定、MacのPCでGarageBandをインストールして作る　っていうタイトルが必要かも　実装したらコメント消して　-->
     <section class="select-wrapper">
       <div class="mac-wrapper">
-        <!-- data-bs-toggle="modal" & data-bs-target="#mac-start-modal" 追加  & -->
         <img src="img/mac_icon.png" alt="マックとガレージバンドの画像" data-bs-toggle="modal" data-bs-target="#mac-start-modal">
-        <!-- Bootstrap modal 入れ子 container-fluid  & tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"-->
         <div id="mac-start-modal" class="modal" tabindex="-1">
           <div class="modal-dialog">
             <div class="modal-content">
@@ -62,7 +60,46 @@
 
     <!-- コラム集 -->
     <article class="article">
-      <h1>作曲って楽しいの？</h1>
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#hajime-accordion" aria-expanded="true" aria-controls="hajime-accordion">
+              はじめは恥ずかしい
+            </button>
+          </h2>
+          <div id="hajime-accordion" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>はじめは恥ずかしいの文章はじめは恥ずかしいの文章</strong>はじめは恥ずかしいの文章はじめは恥ずかしいの文章はじめは恥ずかしいの文章はじめは恥ずかしいの文章はじめは恥ずかしいの文章はじめは恥ずかしいの文章<code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Accordion Item #2
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Accordion Item #3
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- <h1>作曲って楽しいの？</h1>
       <div class="hajime">
         <h2>はじめは恥ずかしい</h2>
         <p class="hajime-accordion"></p>
@@ -86,7 +123,7 @@
       <div class="alone">
         <h2>ひとり、つづける</h2>
         <p class="alone-accordion"></p>
-      </div>
+      </div> -->
     </article>
     <!-- 制作者-->
   </div>
