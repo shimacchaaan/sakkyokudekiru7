@@ -29,9 +29,10 @@
     <!-- 作り方を３つの中からえらぶ  ※詳細設定、MacのPCでGarageBandをインストールして作る　っていうタイトルが必要かも　実装したらコメント消して　-->
     <section class="select-wrapper">
       <div class="mac-wrapper">
-        <img src="img/mac_icon.png" alt="マックとガレージバンドの画像">
-        <!-- Bootstrap modal 入れ子 container-fluid -->
-        <div class="modal-body modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <!-- data-bs-toggle="modal" & data-bs-target="#mac-start-modal" 追加  & -->
+        <img src="img/mac_icon.png" alt="マックとガレージバンドの画像" data-bs-toggle="modal" data-bs-target="#mac-start-modal">
+        <!-- Bootstrap modal 入れ子 container-fluid  & tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"-->
+        <div id="mac-start-modal" class="modal fade modal-body modal-dialog modal-dialog-centered modal-dialog-scrollable" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div class="container-fluid">
             <div class="row">
               <div class="col-md-4">.col-md-4</div>
