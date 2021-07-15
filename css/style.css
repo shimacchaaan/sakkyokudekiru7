@@ -2,6 +2,10 @@ body {
   background-color:#f5f5c6 ;
 }
 
+header{
+  text-align: center;
+}
+
 .top-wrapper　{
   background-color:snow ;
   text-align: center;
