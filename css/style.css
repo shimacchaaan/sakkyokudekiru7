@@ -6,6 +6,13 @@ header{
   text-align: center;
 }
 
+header h1 {
+  font-size:0.9em;
+  font-weight:bold;
+  padding:1rem;
+  background-color:;
+}
+
 .top-wrapper　{
   background-color:snow ;
   text-align: center;
