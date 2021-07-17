@@ -14,9 +14,9 @@ header h1 {
 
 .top-wrapper-bg {
   background-color:#ef3c66;
+  color:white;
 }
 
-.top-wrapper　{
-  color:white;
-  text-align: center;
+.mac-daw p .win-daw p .ds-daw p {
+  background-color:rgba(0,0,0,.5);
 }
