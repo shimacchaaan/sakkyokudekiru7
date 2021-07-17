@@ -17,6 +17,6 @@ header h1 {
   color:white;
 }
 
-.mac-daw p .win-daw p .ds-daw p {
+.mac-daw p,.win-daw p ,.ds-daw p {
   background-color:rgba(0,0,0,.5);
 }
