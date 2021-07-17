@@ -12,6 +12,10 @@ header h1 {
   /* background-color:; */
 }
 
+.top-wrapper-bg {
+  background-color:#ef3c66;
+}
+
 .top-wrapper　{
   background-color:snow ;
   text-align: center;
