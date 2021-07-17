@@ -15,6 +15,7 @@ header h1 {
 .top-wrapper-bg {
   background-color:#ef3c66;
   color:white;
+  width: 100%;
 }
 
 .mac-daw p,.win-daw p ,.ds-daw p {
