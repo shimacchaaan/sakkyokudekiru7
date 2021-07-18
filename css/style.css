@@ -33,3 +33,9 @@ header h1 {
 .btn-outline {
   background-color:#ef3c66;
 }
+
+@media (max-width: 690px) {
+  .copy{
+    display:none;
+  }
+}
