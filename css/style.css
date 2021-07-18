@@ -34,7 +34,7 @@ header h1 {
   background-color:#ef3c66;
 }
 
-@media (max-width: 690px) {
+@media (max-width: 940px) {
   .copy{
     display:none;
   }
