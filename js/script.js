@@ -8,9 +8,8 @@ $(function() {
   //768px以上の場合なにもしない
     } else {
   };
-});
 
-$(window).resize(function(){
+  $(window).resize(function(){
   let x = $(window).width();
   let y = 768;
   if (x <= y) {
@@ -19,4 +18,6 @@ $(window).resize(function(){
   else {
     $('.step-7').addClass('col-12');
   }
+});
+
 });
