@@ -38,6 +38,9 @@ header h1 {
 .mac-daw {
   text-align:center;
 }
+.step-7 ol li a {
+  color:white;
+}
 
 
 @media (max-width: 940px) {
