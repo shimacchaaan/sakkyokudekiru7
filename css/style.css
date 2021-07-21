@@ -168,9 +168,18 @@ header h1 {
 
 /*End Wizard*/
 
+/* res-footer 非表示 */
+.res-footer {
+  display:none;
+}
 
 @media (max-width: 940px) {
-  .copy{
+  .pc-footer{
     display:none;
   }
+
+  .res-footer {
+    display:block;
+  }
+
 }
