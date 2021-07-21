@@ -42,6 +42,12 @@ header h1 {
   color:white;
 }
 
+/* carousels.html */
+.mac_icon {
+  width:auto;
+}
+
+
 /*Start Wizard*/
 .bootstrapWizard {
     display: block;
