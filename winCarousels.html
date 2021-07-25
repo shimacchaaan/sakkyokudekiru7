@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <title>中学生のあなたでも作曲ができる！</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- ヘッダーをcontainer外に -->
+  <header>
+    <div class="container-fluid">
+      <h1 class="display-2">中学生のあなたでも作曲ができる！</h1>
+    </div>
+  </header>
+
+  <!-- どんなサイトなのか -->
+  <div class="top-wrapper-bg menu">
+    <!-- bootstrap container ビューポート幅のコンテナ -->
+    <div class="container-fluid">
+      <div class="top-wrapper py-4 px-3 position-relative">
+        <h2 class="text-center">Mac(PC) GarageBand<img class="mb-0 mac_icon" src="img/mac_icon_bgrm.png" alt="マックの画像"></h2>
+        <!-- step wizard -->
+        <div role="content">
+          <div class="widget-body">
+            <div class="row">
+              <form id="wizard-1" novalidate="novalidate">
+                <div id="bootstrap-wizard-1" class="col-sm-12">
+                  <div class="form-bootstrapWizard">
+
+                    <ul class="bootstrapWizard form-wizard">
+                      <li id="step1" class="active" data-target="#step1"><a href="#tab1" data-toggle="tab"><span class="step">1</span><span class="title">インストール</span></a></li>
+                      <li id="step2" data-target="#step2" class=""><a href="#tab2" data-toggle="tab"><span class="step">2</span><span class="title">リズム</span></a></li>
+                      <li id="step3" data-target="#step3" class=""><a href="#tab3" data-toggle="tab"><span class="step">3</span><span class="title">メロディ</span></a></li>
+                      <li id="step4" data-target="#step4" class=""><a href="#tab4" data-toggle="tab"><span class="step">4</span><span class="title">コード</span></a></li>
+                      <li id="step5" data-target="#step5" class=""><a href="#tab5" data-toggle="tab"><span class="step">5</span><span class="title">音を整える</span></a></li>
+                      <li id="step6" data-target="#step6" class=""><a href="#tab6" data-toggle="tab"><span class="step">6</span><span class="title">オリジナル</span></a></li>
+                      <li id="step7" data-target="#step7" class=""><a href="#tab7" data-toggle="tab"><span class="step">7</span><span class="title">視聴</span></a></li>
+                    </ul>
+                    <div class="clearfix"></div>
+                  </div>
+                  <div class="tab-content">
+                    <div class="tab-pane" id="tab1"><br>
+                      <h3><strong>Step 1</strong> - インストール</h3>
+                    </div>
+                    <div class="tab-pane" id="tab2"><br>
+                      <h3><strong>Step 2</strong> - リズム</h3>
+                    </div>
+                    <div class="tab-pane" id="tab3"><br>
+                      <h3><strong>Step 3</strong> - メロディ</h3>
+                    </div>
+                    <div class="tab-pane" id="tab4"><br>
+                      <h3><strong>Step 4</strong> - コード</h3>
+                    </div>
+                    <div class="tab-pane" id="tab5"><br>
+                      <h3><strong>Step 5</strong> - 音を整える</h3>
+                    </div>
+                    <div class="tab-pane" id="tab6"><br>
+                      <h3><strong>Step 6</strong> - オリジナル</h3>
+                    </div>
+                    <div class="tab-pane" id="tab7"><br>
+                      <h3><strong>Step 7</strong> - 視聴</h3>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <!-- carousels  -->
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="5" aria-label="Slide 6"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="6" aria-label="Slide 1"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/mac_step1.png" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>First slide label</h5>
+                <p>Some representative placeholder content for the first slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/mac_step2.png" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Second slide label</h5>
+                <p>Some representative placeholder content for the second slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/mac_step3.png" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Third slide label</h5>
+                <p>Some representative placeholder content for the third slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/mac_step4.png" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Fourth slide label</h5>
+                <p>Some representative placeholder content for the third slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/mac_step5.png" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Fifth slide label</h5>
+                <p>Some representative placeholder content for the third slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/mac_step6.png" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Sixth slide label</h5>
+                <p>Some representative placeholder content for the third slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/mac_step7.png" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Seventh slide label</h5>
+                <p>Some representative placeholder content for the third slide.</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+        <!-- bootstrap container ビューポート幅のコンテナ -->
+      </div>
+      <!-- container fruid -->
+    </div>
+    <!-- top-wrapper-bg -->
+  </div>
+  <!-- 制作者-->
+  <hr>
+  <div class="container-fruid py-4 px-3">
+    <footer>
+      <div class="pc-footer">
+        <div class="row justify-content-start">
+          <div class="copy col-6 fw-lighter">
+            <p>Hisanori Shimabara.</p>
+            <p>Copyright © 2021 Hisanori Shimabara. All rights reserved.</p>
+          </div>
+          <div class="col-6">
+            <ul type="none">
+              <hr class="my-0">
+              <li class="my-0"><a href="https://shimacchaaan.github.io/sakkyokudekiru7">Home</a></li>
+              <hr class="my-0">
+              <li src="https://shimacchaaan.github.io/sakkyokudekiru7/macMenu" class="my-0">GarageBandで作曲する</li>
+              <hr class="my-0">
+              <li class="my-0">bandlabで作曲する</li>
+              <hr class="my-0">
+              <li class="my-0">大合奏バンドブラザーズDXで作曲する</li>
+              <hr class="my-0">
+              <li class="my-0">10年作曲してきた人の気づきのコラム</li>
+              <hr class="my-0">
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="res-footer">
+        <div class="row justify-content-start">
+          <div class="col-12">
+            <ul type="none" class="p-0">
+              <hr class="my-0">
+              <li class="my-0"><a href="https://shimacchaaan.github.io/sakkyokudekiru7">Home</a></li>
+              <hr class="my-0">
+              <li class="my-0"><a href="https://shimacchaaan.github.io/sakkyokudekiru7/macMenu">GarageBandで作曲する</a></li>
+              <hr class="my-0">
+              <li class="my-0">bandlabで作曲する</li>
+              <hr class="my-0">
+              <li class="my-0">大合奏バンドブラザーズDXで作曲する</li>
+              <hr class="my-0">
+              <li class="my-0">10年作曲してきた人の気づきのコラム</li>
+              <hr class="my-0">
+            </ul>
+          </div>
+          <div class="copy col-12 fw-lighter">
+            <p>Hisanori Shimabara.</p>
+            <p>Copyright © 2021 Hisanori Shimabara. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <!-- 20210711JavaScriptプラグイン　実装するときに入れる -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+  <!-- 20210721JavaScript -->
+  <script src="js/script.js"></script>
+</body>
+
+</html>
