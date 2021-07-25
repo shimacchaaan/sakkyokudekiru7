@@ -187,7 +187,6 @@ button, input, select, textarea {
 
 .article_img{
   height:20em;
-  text-align:center;
 }
 
 @media (max-width: 940px) {
@@ -198,5 +197,10 @@ button, input, select, textarea {
   .res-footer {
     display:block;
   }
+
+  .article_img{
+  height:13em;
+  text-align:center;
+}
 
 }
