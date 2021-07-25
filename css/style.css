@@ -181,6 +181,10 @@ button, input, select, textarea {
 }
 
 /* article */
+.container-sm{
+  height:20em;
+}
+
 .article_img{
   height:20em;
   text-align:center;
