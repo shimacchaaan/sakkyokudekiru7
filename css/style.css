@@ -34,8 +34,8 @@ header h1 {
   background-color:#ef3c66;
 }
 
-/* macMenu.html */
-.mac-daw {
+/* Menu.html */
+.mac-daw,.win_icon,.ds_icon {
   text-align:center;
 }
 .step-7 ol li a {
@@ -43,7 +43,7 @@ header h1 {
 }
 
 /* carousels.html */
-.mac_icon {
+.mac_icon,.win_icon,.ds_icon {
   width:2em;
 }
 
@@ -179,7 +179,7 @@ button, input, select, textarea {
   font-size: inherit;
   line-height: inherit;
 }
-  
+
 
 
 @media (max-width: 940px) {
