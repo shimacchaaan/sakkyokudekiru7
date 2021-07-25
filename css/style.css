@@ -180,7 +180,11 @@ button, input, select, textarea {
   line-height: inherit;
 }
 
-
+/* article */
+.article_img{
+  height:20em;
+  text-align:center;
+}
 
 @media (max-width: 940px) {
   .pc-footer{
