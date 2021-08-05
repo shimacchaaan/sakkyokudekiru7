@@ -210,15 +210,6 @@ button, input, select, textarea {
 }
 
 @media (max-width: 940px) {
-
-  /* .pc-footer{
-    display:none;
-  }
-
-  .res-footer {
-    display:block;
-  } */
-
   .article_img{
   height:13em;
   text-align:center;
@@ -229,7 +220,7 @@ button, input, select, textarea {
 @media (max-width: 768px) {
 
  .copy{
-   margin-top:10em;
+   margin-top:8em;
  }
 
 }
