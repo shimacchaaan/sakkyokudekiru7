@@ -210,13 +210,14 @@ button, input, select, textarea {
 }
 
 @media (max-width: 940px) {
-  .pc-footer{
+
+  /* .pc-footer{
     display:none;
   }
 
   .res-footer {
     display:block;
-  }
+  } */
 
   .article_img{
   height:13em;
