@@ -29,6 +29,10 @@ header h1 {
   border-radius:0;
 }
 
+.down {
+  font-size:0.1em;
+}
+
 .site-map ol {
   list-style:none;
 }
