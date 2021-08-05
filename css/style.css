@@ -50,6 +50,10 @@ header h1 {
   background-color:#ef3c66;
 }
 
+.articleBtn {
+  width:100%;
+}
+
 /* Menu.html */
 .mac-daw,.win_daw,.ds_daw {
   text-align:center;
