@@ -225,3 +225,11 @@ button, input, select, textarea {
 }
 
 }
+
+@media (max-width: 768px) {
+
+ .copy{
+   margin-top:10em;
+ }
+
+}
