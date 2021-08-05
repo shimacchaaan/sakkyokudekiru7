@@ -26,6 +26,11 @@ header h1 {
   color:black;
 }
 
+.site-map ol {
+  list-style:none;
+}
+
+
 .three-daw div {
   text-align:center;
 }
