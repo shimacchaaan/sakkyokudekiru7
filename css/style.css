@@ -219,8 +219,20 @@ button, input, select, textarea {
 
 @media (max-width: 768px) {
 
- .copy{
-   margin-top:8em;
+  .top-wrapper h2{
+
+  }
+
+  .copy{
+    margin-top:8em;
+}
+
+}
+
+@media (max-width: 368px) {
+
+ .font_small {
+   font-size:.8em;
  }
 
 }
