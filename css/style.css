@@ -214,12 +214,17 @@ button, input, select, textarea {
   height:13em;
   text-align:center;
 }
-
 }
 
 @media (max-width: 767px) {
   .copy{
     margin-top:8em;
 }
+}
 
+/* 改行のコントロール */
+@media (mix-width: 767px) {
+  .br-sp{
+  display: none;
+}
 }
