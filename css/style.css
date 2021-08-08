@@ -223,11 +223,3 @@ button, input, select, textarea {
 }
 
 }
-
-@media (max-width: 368px) {
-
- .font_small {
-   font-size:.8em;
- }
-
-}
