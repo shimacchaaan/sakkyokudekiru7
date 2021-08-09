@@ -227,4 +227,9 @@ button, input, select, textarea {
   .br-sp{
   display: none;
 }
+
+.inline-block{
+  display: inline-block;
+
+}
 }
