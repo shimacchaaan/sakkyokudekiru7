@@ -225,10 +225,6 @@ button, input, select, textarea {
   .copy{
     margin-top:8em;
 }
-
-  .inline-block{
-    text-align: right;
-  }
 }
 
 /* 改行のコントロール */
