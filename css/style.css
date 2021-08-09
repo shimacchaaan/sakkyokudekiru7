@@ -223,7 +223,7 @@ button, input, select, textarea {
 }
 
 /* 改行のコントロール */
-@media (mix-width: 767px) {
+@media (min-width: 767px) {
   .br-sp{
   display: none;
 }
