@@ -41,6 +41,12 @@ header h1 {
   list-style:none;
 }
 
+.site-map li>a {
+  text-decoration: none;
+  color:white;
+  display:inline;
+  border-bottom: .1em solid #ffffff;
+}
 
 .three-daw div {
   text-align:center;
